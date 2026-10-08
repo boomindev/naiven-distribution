@@ -14,7 +14,6 @@ const config: Config = {
         "surface-elevated": "#171717",
         border: "#222222",
         "border-light": "#2f2f2f",
-        /* Accent color: Emerald [COLOR] */
         accent: {
           DEFAULT: "#10b981",
           hover: "#34d399",
@@ -24,7 +23,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],
-        display: ["var(--font-syne)", "sans-serif"],
+        display: ["var(--font-display)", "sans-serif"],
       },
       letterSpacing: {
         tightest: "-0.04em",

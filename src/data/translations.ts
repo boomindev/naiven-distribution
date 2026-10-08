@@ -47,23 +47,12 @@ export interface TranslationContent {
   contact: {
     title: string;
     subtitle: string;
-    directEmailLabel: string;
+    emailAddressLabel: string;
+    emailAddress: string;
+    generalSupportLabel: string;
+    generalSupportText: string;
     copyEmail: string;
     copiedEmail: string;
-    form: {
-      nameLabel: string;
-      namePlaceholder: string;
-      emailLabel: string;
-      emailPlaceholder: string;
-      spotifyLabel: string;
-      spotifyPlaceholder: string;
-      messageLabel: string;
-      messagePlaceholder: string;
-      submitButton: string;
-      submitting: string;
-      successMessage: string;
-      errorMessage: string;
-    };
   };
 }
 
@@ -86,7 +75,7 @@ export const translations: Record<Language, TranslationContent> = {
     },
     home: {
       badge: "DIGITAL MUSIC DISTRIBUTION",
-      headline: "Precision music distribution tailored for independent sound.",
+      headline: "WE CONNECT YOUR MUSIC TO THE WORLD.",
       subheadline:
         "Direct digital distribution, artist profile management, and strategic release planning built to elevate independent music.",
       applyButton: "APPLY NOW",
@@ -130,29 +119,14 @@ export const translations: Record<Language, TranslationContent> = {
         "Global ingest protocols ensure releases are delivered accurately and on schedule to premier DSPs.",
     },
     contact: {
-      title: "Contact",
-      subtitle:
-        "We review every submission carefully. Tell us about your project and forthcoming releases.",
-      directEmailLabel: "Direct Inquiries",
-      copyEmail: "Copy email",
-      copiedEmail: "Email copied",
-      form: {
-        nameLabel: "Name / Artist Name",
-        namePlaceholder: "Your name or project moniker",
-        emailLabel: "Email Address",
-        emailPlaceholder: "name@example.com",
-        spotifyLabel: "Spotify Link",
-        spotifyPlaceholder: "https://open.spotify.com/artist/...",
-        messageLabel: "Message & Project Details",
-        messagePlaceholder:
-          "Provide upcoming release dates, unreleased streaming links, and a brief background...",
-        submitButton: "Send Application",
-        submitting: "Submitting...",
-        successMessage:
-          "Thank you for submitting. Our team will review your project and get back to you shortly.",
-        errorMessage:
-          "An error occurred while sending your message. Please write directly to contact@naivendistribution.com.",
-      },
+      title: "CONTACT US",
+      subtitle: "Get in touch with our team for distribution inquiries or support.",
+      emailAddressLabel: "EMAIL ADDRESS",
+      emailAddress: "contact@naivendistribution.com",
+      generalSupportLabel: "GENERAL SUPPORT",
+      generalSupportText: "Responses within 24 to 48 business hours.",
+      copyEmail: "Copy",
+      copiedEmail: "Copied",
     },
   },
   es: {
@@ -173,7 +147,7 @@ export const translations: Record<Language, TranslationContent> = {
     },
     home: {
       badge: "DIGITAL MUSIC DISTRIBUTION",
-      headline: "Distribución musical con enfoque y dedicación para el sonido independiente.",
+      headline: "WE CONNECT YOUR MUSIC TO THE WORLD.",
       subheadline:
         "Distribución digital directa, gestión de perfiles de artista y planificación estratégica para potenciar la música independiente.",
       applyButton: "APPLY NOW",
@@ -217,29 +191,14 @@ export const translations: Record<Language, TranslationContent> = {
         "Protocolos de entrega directa que aseguran la puntualidad y fidelidad de cada lanzamiento.",
     },
     contact: {
-      title: "Contact",
-      subtitle:
-        "Revisamos cada propuesta con atención. Cuéntanos sobre tu proyecto y tus próximos lanzamientos.",
-      directEmailLabel: "Consultas Directas",
-      copyEmail: "Copiar correo",
-      copiedEmail: "Correo copiado",
-      form: {
-        nameLabel: "Nombre / Nombre Artístico",
-        namePlaceholder: "Tu nombre o nombre del proyecto",
-        emailLabel: "Correo Electrónico",
-        emailPlaceholder: "nombre@ejemplo.com",
-        spotifyLabel: "Enlace de Spotify",
-        spotifyPlaceholder: "https://open.spotify.com/artist/...",
-        messageLabel: "Mensaje y Detalles del Proyecto",
-        messagePlaceholder:
-          "Comparte fechas de lanzamiento, enlaces a música inédita y un resumen de tu trayectoria...",
-        submitButton: "Enviar Solicitud",
-        submitting: "Enviando...",
-        successMessage:
-          "Gracias por enviar tu aplicación. Revisaremos tu material y nos pondremos en contacto a la brevedad.",
-        errorMessage:
-          "Ocurrió un error al enviar el mensaje. Por favor contáctanos directamente a contact@naivendistribution.com.",
-      },
+      title: "CONTACT US",
+      subtitle: "Ponte en contacto con nuestro equipo para consultas de distribución o soporte.",
+      emailAddressLabel: "EMAIL ADDRESS",
+      emailAddress: "contact@naivendistribution.com",
+      generalSupportLabel: "GENERAL SUPPORT",
+      generalSupportText: "Respuestas en un plazo de 24 a 48 horas hábiles.",
+      copyEmail: "Copiar",
+      copiedEmail: "Copiado",
     },
   },
 };
